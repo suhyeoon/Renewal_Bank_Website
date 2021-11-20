@@ -1,4 +1,4 @@
-header .top { margin: 0 auto; width: 1200px;}
+header .top { margin: 0 auto; width: 1200px; padding-bottom: 26px;}
 header .top h1 { float: left; padding: 33px 0 0;}
 header .top h1 a:first-child { margin-right: 28px;}
 header .top > div { float: right;}
@@ -12,3 +12,14 @@ header .sns { float: left; position: relative; padding: 27px 0 0 7px;}
 header .sns:before { content: ""; position: absolute; left: 0; top: 35px; width: 1px; height: 30px; background: #e3e3e3;}
 header .sns li { float: left; padding-left: 12px;}
 header .sns li img { width: 46px;}
+header .btm { border-top: 1px solid #ededed; border-bottom: 1px solid #ededed;}
+header .btm > div { margin: 0 auto; width: 1200px;}
+header .btm .lnb { float: left;}
+header .btm .lnb li { float: left;}
+header .btm .lnb a { display: block; line-height: 59px; padding: 0 40px; color: #333; font-size: 22px;}
+header .btm .spot { float: right; font-size: 0;}
+header .btm .spot * {vertical-align: middle;}
+header .btm .spot a { display: inline-block; position: relative; padding: 0 12px; line-height: 59px; font-size: 15px; color: #666;}
+header .btm .spot a ~ a:before { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 10px; background: #e3e3e3; transform: translateY(-50%);}
+header .btm .spot button { width: 59px; height: 59px; background: none; color: #0066b3; font-size: 26px;}
+
