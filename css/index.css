@@ -18,8 +18,16 @@ header .btm .lnb { float: left;}
 header .btm .lnb li { float: left;}
 header .btm .lnb a { display: block; line-height: 59px; padding: 0 40px; color: #333; font-size: 22px;}
 header .btm .spot { float: right; font-size: 0;}
-header .btm .spot * {vertical-align: middle;}
+header .btm .spot * { vertical-align: middle;}
 header .btm .spot a { display: inline-block; position: relative; padding: 0 12px; line-height: 59px; font-size: 15px; color: #666;}
 header .btm .spot a ~ a:before { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 10px; background: #e3e3e3; transform: translateY(-50%);}
 header .btm .spot button { width: 59px; height: 59px; background: none; color: #0066b3; font-size: 26px;}
 
+.visual img { width: 100%;}
+.visual .controls { position: absolute; left: 50%; bottom: 25px; z-index: 30; padding: 0 31px; transform: translateX(-50%);}
+.visual .controls > button { position: absolute; top: 0; width: 13px; height: 25px; cursor: pointer;}
+.visual .controls > button.prev { left: 0; background: url(../img/btn_prev.png);}
+.visual .controls > button.next { right: 0; background: url(../img/btn_next.png);}
+.visual .paging { line-height: 25px;}
+.visual .paging span { margin: 0 5px; width: 14px; height: 14px; border-radius: 14px; background: #d9d9d9;}
+.visual .paging span.swiper-pagination-bullet-active { width: 30px; height: 12px; background: #288bcc;}
