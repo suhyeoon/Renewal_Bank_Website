@@ -31,3 +31,15 @@ header .btm .spot button { width: 59px; height: 59px; background: none; color: #
 .visual .paging { line-height: 25px;}
 .visual .paging span { margin: 0 5px; width: 14px; height: 14px; border-radius: 14px; background: #d9d9d9;}
 .visual .paging span.swiper-pagination-bullet-active { width: 30px; height: 12px; background: #288bcc;}
+
+/* 콘텐츠 공통디자인 */
+.block > div { padding-top: 100px; margin: 0 auto; width: 1200px;}
+.block .tit { text-align: center;}
+.block .tit h2 { padding-bottom: 28px; font-size: 38px; color: #333; line-height: 1;}
+.block .tit p { font-size: 21px; color: #666; line-height: 1;}
+
+/* 금융서비스 */
+.service .banner > div { width: 580px;}
+.service .banner .left { float: left; background: url(../img/bg_ad1.png) no-repeat left top;}
+.service .banner .right { float: right; background: url(../img/bg_ad2.png) no-repeat right top;}
+.service .banner div div { width: 290px; height: 280px;}
