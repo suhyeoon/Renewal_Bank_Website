@@ -39,7 +39,12 @@ header .btm .spot button { width: 59px; height: 59px; background: none; color: #
 .block .tit p { font-size: 21px; color: #666; line-height: 1;}
 
 /* 금융서비스 */
-.service .banner > div { width: 580px;}
+.service .banner > div { width: 580px; color: #fff;}
 .service .banner .left { float: left; background: url(../img/bg_ad1.png) no-repeat left top;}
+.service .banner .left div { float: right; background: linear-gradient(to right, #3497da, #4caff3); }
 .service .banner .right { float: right; background: url(../img/bg_ad2.png) no-repeat right top;}
+.service .banner .right div { background: linear-gradient(to left, #344ea5, #3b5eb0);}
 .service .banner div div { width: 290px; height: 280px;}
+.service .banner h3 { font-size: 24px;}
+.service .banner p { font-size: 13px;}
+.service .banner a { color: #fff;}
